@@ -1,364 +1,474 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Project</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+    integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
-    <!--Row-1 start here-->
-    <section id="Row-1">
-        <div class="container">
-            <div class="top-section">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#">Logo</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                          </li><li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">portfolio</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                          </li>
+  <!--Row-1 start here-->
+  <section id="Row-1">
+    <div class="container">
+      <div class="top-section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
 
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Gallery</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="#">personal Photo</a></li>
-                              <li><a class="dropdown-item" href="#">Group Photo </a></li>
-                        
-                              <li><a class="dropdown-item" href="#">Friends Photo </a></li>
-                            </ul>
-                          </li>
-                          
-                        </ul>
-                        <div class="TEXT-END">
-                            <button TYPE="button" class="btn btn-outline-primary me-2">login</button>
-                            <button TYPE="button" class="btn btn-warning">Sign-up</button>
-                        </div>
-                      </div>
-                    </div>
-                  </nav>
-            </div>
-        </div>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Gallery</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">personal Photo</a></li>
+                    <li><a class="dropdown-item" href="#">Group Photo </a></li>
 
-    </section>
-    <!--Row-1 end here-->
+                    <li><a class="dropdown-item" href="#">Friends Photo </a></li>
+                  </ul>
+                </li>
 
-    <!--Row-2 start here-->
-
-    <section id="Row-2">
-        <div class="container">
-            <div class="slider-section">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img style="height: 500px; width: 100%;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO6mcaSiVzhqfjtpls4hW6hEJ1rZLbmcjvVw&usqp=CAU" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img style="height: 500px; width: 100%;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDwFwDuRIuBdV0o-oO-7QdtYX39r9hYH2XRw&usqp=CAU" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img style="height: 500px; width: 100%;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHNE8jRBgT1yH4u_yBOZfiPKdDyJDjnuzcKQ&usqp=CAU" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-            </div>
-        </div>
-    </section>
-
-        <!--Row-2 end here-->
-
-         <!--Row-3 start here-->
-
-         <section id="Row-3">
-            <div class="container">
-                <div class="service-section">
-                    <h1 class="text-center pt-5">Our Servises</h1>
-                    <div class="row mt-5">
-                        <div class="col-md-3">
-                            <div class="service-item text-center shadow p-2">
-                                <i class="fa-brands fa-windows"></i> 
-                                <h3>Web Design</h3>
-                                <p class="text-justified">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae qui dolorum, illum soluta ipsam doloribus itaque tempora aliquid amet necessitatibus.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="service-item text-center shadow p-2">
-                                <i class="fa-brands fa-windows"></i> 
-                                <h3>Web Design</h3>
-                                <p class="text-justified">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae qui dolorum, illum soluta ipsam doloribus itaque tempora aliquid amet necessitatibus.</p>
-                            </div>
-                        </div> 
-                        <div class="col-md-3">
-                            <div class="service-item text-center shadow p-2">
-                                <i class="fa-brands fa-windows"></i> 
-                                <h3>Web Design</h3>
-                                <p class="text-justified">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae qui dolorum, illum soluta ipsam doloribus itaque tempora aliquid amet necessitatibus.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="service-item text-center shadow p-2 ">
-                                <i class="fa-brands fa-windows"></i> 
-                                <h3>Web Design</h3>
-                                <p class="text-justified">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae qui dolorum, illum soluta ipsam doloribus itaque tempora aliquid amet necessitatibus.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         </section>
-        <!--Row-3 end here-->
-
-        <!--Row-4 start here-->
-        <section id="Row-4">
-          <div class="container">
-            <div class="portfolio-section">
-              <div class="row mt-5">
-                <div class="col-md-12">
-                  <h2 class="text-center pb p-3">Our Portfolio</h2>
-                  <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corrupti sequi ut ad impedit, eaque animi omnis aut saepe harum dolorum sit nisi quasi nobis laudantium optio ex vero voluptate!</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-3">
-                  <div class="portfolio-item">
-                    <div class="card">
-                      <div class="card-body">
-                        <img style="width: 100%; height: 166px;" class= " img-thumbnail img fluid"src="images/OIP.jpg" alt="">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="portfolio-item">
-                    <div class="card">
-                      <div class="card-body">
-                        <img style="width: 100%; height: 166px;"class= " img-thumbnail img-fluid"src="images/OIP.jpg" alt="">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="portfolio-item">
-                    <div class="card">
-                      <div class="card-body">
-                        <img style="width: 100%; height: 166px;"class= " img-thumbnail img-fluid"src="images/OIP.jpg" alt="">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="portfolio-item">
-                    <div class="card">
-                      <div class="card-body">
-                        <img style="width: 100%; height: 166px;"class= " img-thumbnail img-fluid"src="images/OIP.jpg" alt="">
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              </ul>
+              <div class="TEXT-END">
+                <button TYPE="button" class="btn btn-outline-primary me-2">login</button>
+                <button TYPE="button" class="btn btn-warning">Sign-up</button>
               </div>
             </div>
           </div>
-        </section>
-        
-        <!--Row-4 End here-->
-                <!--Row-5 Start here-->
+        </nav>
+      </div>
+    </div>
 
-                        
-<section id="row5">
-  <div class="container">
-    <div class="pricing_section">
-      <div class="row mt-5">
-        <div class="col-md-12">
-          <h2 class="text-center pt-2 pb-2">Our pricing</h2>
-<p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus incidunt commodi ducimus necessitatibus quaerat aliquam similique amet doloremque voluptatem provident repellat quas quae non mollitia expedita ab sunt quia, alias hic et fuga at deserunt porro. Id assumenda deserunt minus.
-</p>
+  </section>
+  <!--Row-1 end here-->
 
+  <!--Row-2 start here-->
+
+  <section id="Row-2">
+    <div class="container">
+      <div class="slider-section">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img style="height: 500px; width: 100%;"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO6mcaSiVzhqfjtpls4hW6hEJ1rZLbmcjvVw&usqp=CAU"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img style="height: 500px; width: 100%;"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDwFwDuRIuBdV0o-oO-7QdtYX39r9hYH2XRw&usqp=CAU"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img style="height: 500px; width: 100%;"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHNE8jRBgT1yH4u_yBOZfiPKdDyJDjnuzcKQ&usqp=CAU"
+                class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
-      <div class="row">
-      <div class="col-md-3">
-          <div class="pricing_item">
-            <div class="card shadow">
-              <div class="card-header">
-                <h4 class="card-title text-center">$55</h4>
-              </div>
-              <div class="card_body">
-                <ul class="list-group">
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
+    </div>
+  </section>
 
+  <!--Row-2 end here-->
 
-                </ul>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-primary">Order Now</a>
-              </div>
+  <!--Row-3 start here-->
+
+  <section id="Row-3">
+    <div class="container">
+      <div class="service-section">
+        <h1 class="text-center pt-5">Our Servises</h1>
+        <div class="row mt-5">
+          <div class="col-md-3">
+            <div class="service-item text-center shadow p-2">
+              <i class="fa-brands fa-windows"></i>
+              <h3>Web Design</h3>
+              <p class="text-justified">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae qui dolorum,
+                illum soluta ipsam doloribus itaque tempora aliquid amet necessitatibus.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-item text-center shadow p-2">
+              <i class="fa-brands fa-windows"></i>
+              <h3>Web Design</h3>
+              <p class="text-justified">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae qui dolorum,
+                illum soluta ipsam doloribus itaque tempora aliquid amet necessitatibus.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-item text-center shadow p-2">
+              <i class="fa-brands fa-windows"></i>
+              <h3>Web Design</h3>
+              <p class="text-justified">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae qui dolorum,
+                illum soluta ipsam doloribus itaque tempora aliquid amet necessitatibus.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-item text-center shadow p-2 ">
+              <i class="fa-brands fa-windows"></i>
+              <h3>Web Design</h3>
+              <p class="text-justified">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae qui dolorum,
+                illum soluta ipsam doloribus itaque tempora aliquid amet necessitatibus.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="pricing_item">
-            <div class="card shadow">
-              <div class="card-header">
-                <h4 class="card-title text-center">$55</h4>
-              </div>
-              <div class="card_body">
-                <ul class="list-group">
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
+      </div>
+    </div>
+  </section>
+  <!--Row-3 end here-->
 
-
-                </ul>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-primary">Order Now</a>
+  <!--Row-4 start here-->
+  <section id="Row-4">
+    <div class="container">
+      <div class="portfolio-section">
+        <div class="row mt-5">
+          <div class="col-md-12">
+            <h2 class="text-center pb p-3">Our Portfolio</h2>
+            <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsa dolor earum
+              voluptate incidunt natus Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quasi! mollitia
+              odit amet dignissimos? Aperiam.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="portfolio-item">
+              <div class="card">
+                <div class="card-body">
+                  <img style="width: 100%; height: 166px;" class=" img-thumbnail img fluid" src="images/OIP.jpg" alt="">
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="pricing_item">
-            <div class="card shadow">
-              <div class="card-header">
-                <h4 class="card-title text-center">$55</h4>
-              </div>
-              <div class="card_body">
-                <ul class="list-group">
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-
-
-                </ul>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-primary">Order Now</a>
+          <div class="col-md-3">
+            <div class="portfolio-item">
+              <div class="card">
+                <div class="card-body">
+                  <img style="width: 100%; height: 166px;" class=" img-thumbnail img-fluid" src="images/OIP.jpg" alt="">
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="pricing_item">
-            <div class="card shadow">
-              <div class="card-header">
-                <h4 class="card-title text-center">$55</h4>
+          <div class="col-md-3">
+            <div class="portfolio-item">
+              <div class="card">
+                <div class="card-body">
+                  <img style="width: 100%; height: 166px;" class=" img-thumbnail img-fluid" src="images/OIP.jpg" alt="">
+                </div>
               </div>
-              <div class="card_body">
-                <ul class="list-group">
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-                  <li class="list-group-item">Lorem ipsum dolor sit.</li>
-
-
-                </ul>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="portfolio-item">
+              <div class="card">
+                <div class="card-body">
+                  <img style="width: 100%; height: 166px;" class=" img-thumbnail img-fluid" src="images/OIP.jpg" alt="">
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!--Row-5 End here-->
-<!--Row-6 Start here-->
-<section id="row">
-  <div class="container">
-    <div class="cilent_feedback_section">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner pt-5 pb-5">
-          <div class="carousel-item active">
-            <div class="slide_item text-center">
-              <h4>rahana mittal</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, culpa corrupti? Voluptatibus voluptates cupiditate non id voluptatem ipsa. Nulla non impedit accusamus cupiditate quia magnam perferendis fugit amet culpa sint.</p>
-              <img src="images/OIP (1).jpg" class="rounded-circle"height="60px"width="60px" alt="...">
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="slide_item text-center">
-              <h4>suresh sharma</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, culpa corrupti? Voluptatibus voluptates cupiditate non id voluptatem ipsa. Nulla non impedit accusamus cupiditate quia magnam perferendis fugit amet culpa sint.</p>
-              <img src="images/69c263b097873451bb87694a4cefa36a.jpg" class="rounded-circle"height="60px"width="60px" alt="...">
-            </div>
+  </section>
 
+  <!--Row-4 end here-->
+
+  <!--Row-5 start here-->
+  <section id="Row-5">
+    <div class="container">
+      <div class="pricing-section">
+        <div class="row mt-5">
+          <div class="col-md-12">
+            <h2 class="text-center pt-2 pb-2">Our pricing</h2>
+            <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa, commodi
+              inventore blanditiis quasi natus eius minus praesentium nobis repudiandae corporis laudantium, neque quam?
+              Voluptas officia obcaecati quas accusantium provident totam rem saepe soluta? Natus iure accusamus sequi
+              ipsam. Numquam.</p>
           </div>
-          <div class="carousel-item">
-            <div class="slide_item text-center">
-              <h4>suhani verma</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, culpa corrupti? Voluptatibus voluptates cupiditate non id voluptatem ipsa. Nulla non impedit accusamus cupiditate quia magnam perferendis fugit amet culpa sint.</p>
-              <img src="images/23229dcdafcdf062f22e242c01490272.jpg" class="rounded-circle"height="60px"width="60px" alt="...">
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="pricing-item">
+              <div class="card">
+                <div class="shadow">
+                  <div class="card-header">
+                    <h4 class="card-title text-center">55$</h4>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-group">
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="col-md-3">
+            <div class="pricing-item">
+              <div class="card">
+                <div class="shadow">
+                  <div class="card-header">
+                    <h4 class="card-title text-center">55$</h4>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-group">
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="pricing-item">
+              <div class="card">
+                <div class="shadow">
+                  <div class="card-header">
+                    <h4 class="card-title text-center">55$</h4>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-group">
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="pricing-item">
+              <div class="card">
+                <div class="shadow">
+                  <div class="card-header">
+                    <h4 class="card-title text-center">55$</h4>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-group">
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                      <li class="list-froup-item">Lorem ipsum dolor sit.</li>
+                    </ul>
+                  </div>
+                  <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
-  </div>
-</section>
-<!--Row-6 Edn here-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </section>
+  <!--Row-5 end here-->
 
-    </script>
+
+  <!--Row-6 start here-->
+
+  <section id="Row-6">
+    <div class="container">
+      <div class="client-feedback-section">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner pt-5 pd-5">
+            <div class="carousel-item active">
+              <div class="slide-item text-center">
+                <h4>paridhi Bajaj</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In eius magni at possimus modi, odit culpa
+                  rem minima reprehenderit dignissimos aliquid ea adipisci, deleniti explicabo nihil mollitia iure
+                  quaerat aliquam quae. Et. </p>
+                <img src="images/OIP (1).jpg" height="60px" width="60px" class="rounded-circle" alt="">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slide-item text-center">
+                <h4>shruti gulati</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In eius magni at possimus modi, odit culpa
+                  rem minima reprehenderit dignissimos aliquid ea adipisci, deleniti explicabo nihil mollitia iure
+                  quaerat aliquam quae. Et. </p>
+                <img src="images/69c263b097873451bb87694a4cefa36a.jpg" height="60px" width="60px" class="rounded-circle"
+                  alt="">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slide-item text-center">
+                <h4> ajay kapoor</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In eius magni at possimus modi, odit culpa
+                  rem minima reprehenderit dignissimos aliquid ea adipisci, deleniti explicabo nihil mollitia iure
+                  quaerat aliquam quae. Et. </p>
+                <img src="images/23229dcdafcdf062f22e242c01490272.jpg" height="60px" width="60px" class="rounded-circle"
+                  alt="">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Row-6 end here-->
+
+  <!--Row-7 start here-->
+
+  <section id="Row-7">
+    <div class="container">
+      <div class="work-section">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-center pt-3 pb-3">Our Latest Project</h2>
+            <p class="text-center p-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam beatae ipsam, ex
+              possimus, ea sit nisi excepturi atque aliquam aspernatur laboriosam, id quia aliquid officia voluptas
+              quisquam molestiae voluptatem culpa quae! Quam voluptate ab aspernatur!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="all-work">
+              <h1>Isotope - filtering &amp; sorting</h1>
+
+              <div id="filters" class="button-group"> <button class="button is-checked" data-filter="*">All
+                  Prjects</button>
+                <button class="button" data-filter=".metal">Web Development</button>
+                <button class="button" data-filter=".transition">software Development</button>
+                <button class="button" data-filter=".alkali, .alkaline-earth">Web Design</button>
+                <button class="button" data-filter=":not(.transition)">Graphics Design</button>
+                <button class="button" data-filter=".metal:not(.transition)">UI design</button>
+                <button class="button" data-filter="numberGreaterThan50">App Developer</button>
+                <button class="button" data-filter="ium">Logo design &ndash;ium</button>
+              </div>
+
+
+
+              <div class="grid">
+                <div class="element-item transition metal " data-category="transition">
+              <img src="images/1.jpg" alt="">
+              
+                </div>
+                <div class="element-item metalloid " data-category="metalloid">
+                   <img src="images/download.jpg" alt="">
+                </div>
+                <div class="element-item post-transition metal " data-category="post-transition">
+                 <img src="images/images (1).jpg" alt="">
+                </div>
+                <div class="element-item post-transition metal " data-category="post-transition">
+                 <img src="images/images.jpg" alt="">
+                </div>
+                <div class="element-item transition metal " data-category="transition">
+                  <img src="images/1.jpg" alt="">
+                </div>
+                <div class="element-item alkali metal " data-category="alkali">
+                  <img src="images/1.jpg" alt=""> 
+                </div>
+
+                
+                  
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Row-7 end here-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="js/isotop-pakgd.min.js"></script>
+  <script src="js/isotopes.js"></script>
+
 </body>
+
 </html>
